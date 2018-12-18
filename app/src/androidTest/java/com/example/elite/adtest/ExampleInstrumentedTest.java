@@ -19,6 +19,7 @@ public class ExampleInstrumentedTest {
     @Test
     public void useAppContext() {
         // Context of the app under test.
+        //하하하하하
         Context appContext = InstrumentationRegistry.getTargetContext();
 
         assertEquals("com.example.elite.adtest", appContext.getPackageName());
